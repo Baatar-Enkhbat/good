@@ -1,0 +1,46 @@
+.navbar {
+    left: 0;
+    justify-self: center;
+    width: 100%;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.slide {
+    background-position: right;
+}
+
+.slide-data {
+    right: 0;
+}
+
+#footnav {
+    grid-template-areas: 
+    'logo' 
+    'menu' 
+    'loc';
+}
+
+.logo {
+    justify-self: center;
+    width: 200px;
+}
+
+.menu ul li {
+    padding-top: 0px;
+}
+
+.menu ul li a{
+    font-size: 12px;
+}
+
+.menu ul li　h2{
+    font-size: 8px;
+}
+
+.loc h1 {
+    font-size: 12px;
+}
+
